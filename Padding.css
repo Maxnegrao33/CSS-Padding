@@ -1,0 +1,17 @@
+## Padding - Preenchimento interno da Caixa
+
+- padding-top | padding-right | padding-bottom | padding-left
+- values: '<lenght>' | '<percentage>' | 
+
+'''css
+div {
+    /*shortland*/
+    padding: 12px 16px 10px 4px; {top, right, bottom, left}
+    padding: 12px 16px 0; {12 top }
+    padding: 8px 16px {8 top e bottom; 16 nas laterais}
+    padding: 8px {para todos os lados}
+}
+'''
+
+* Padding poderá causar diferença na largura de um elemento
+
